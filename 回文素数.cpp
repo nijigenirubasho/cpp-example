@@ -10,11 +10,11 @@ int main()
     int pp_count=0;
     for(int each=2; each<=input_num; each++)
     {
-        int factorization_list=0;
+        int factorization_lst=0;
         for(int factor=1; factor<=each; factor++)
             if(each%factor==0&&!(factor>each/factor))
-                factorization_list++;
-        if(factorization_list==1)
+                factorization_lst++;
+        if(factorization_lst==1)
         {
             int antitone=0,each_cpy=each;
             while(each_cpy)
